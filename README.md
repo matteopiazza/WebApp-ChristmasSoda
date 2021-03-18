@@ -15,12 +15,21 @@ scp -r .../xmasSoda/java itec4020grp3@sit.itec.yorku.ca:/home/itec4020grp3/websi
 log into your web server and compile the java classes
 
 ssh itec4020grp3@sit.itec.yorku.ca
+
+
 cd website/java
+
+
 javac -cp /home/itec4020grp3/website/WEB-INF/lib/servlet-api.jar -d /home/itec4020grp3/website/WEB-INF/classes *.java
+
+
+
 
 Delete the Java folder located in the webpage directory
 
 cd /home/itec4020grp3/website
+
+
 rm -r java
 
 Move the jsp files from the jsp folder to the website folder and erase the jsp folder.
